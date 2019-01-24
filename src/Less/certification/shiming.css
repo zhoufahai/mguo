@@ -1,0 +1,46 @@
+.shiming .shiming-body {
+  margin-top: 2rem;
+  background-color: #ffffff;
+  padding: 0 0.5rem;
+  font-size: 0.4rem;
+}
+.shiming .shiming-body .items {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #dddddd;
+}
+.shiming .shiming-body .items .item1 {
+  display: flex;
+  align-items: center;
+}
+.shiming .shiming-body .items .item1 img {
+  width: 0.8rem;
+  margin-right: 0.5rem;
+}
+.shiming .shiming-body .items .item2 {
+  display: flex;
+  align-items: center;
+}
+.shiming .shiming-body .items .item2 img {
+  height: 0.35rem;
+  width: 0.25rem;
+  margin-left: 0.5rem;
+}
+.shiming .shiming-btn {
+  padding: 0.5rem;
+}
+.shiming .shiming-btn button {
+  width: 100%;
+  height: 1rem;
+  border-radius: 5px;
+  background-color: #1a58ff;
+  color: #fff;
+  border: 0px;
+  outline: none;
+}
+.shiming .reason {
+  padding: 0 0.5rem;
+  color: #999999;
+}
+/*# sourceMappingURL=shiming.css.map */

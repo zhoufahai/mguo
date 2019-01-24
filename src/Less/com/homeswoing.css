@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.image-enter-active {
+  transform: translateX(0);
+  transition: all 1.5s ease;
+}
+.image-leave-active {
+  transform: translateX(-100%);
+  transition: all 1.5s ease;
+}
+.image-enter {
+  transform: translateX(100%);
+}
+.image-leave {
+  transform: translateX(0);
+}
+.swoing {
+  width: 100%;
+  height: 215px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.swoing .swoingshow {
+  width: 100%;
+}
+.swoing .swoingshow li {
+  position: absolute;
+}
+.swoing .swoingshow li img {
+  width: 100%;
+}
+.swoing .bar {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  margin: 0 auto;
+  z-index: 10;
+  text-align: center;
+}
+.swoing .bar span {
+  width: 15px;
+  height: 3px;
+  border: 0px solid;
+  background-color: #999999;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+.swoing .bar .active {
+  background-color: blue !important;
+}
+/*# sourceMappingURL=homeswoing.css.map */

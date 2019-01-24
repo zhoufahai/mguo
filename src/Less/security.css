@@ -1,0 +1,31 @@
+.security .body {
+  margin-top: 2rem;
+  font-size: 0.4rem;
+}
+.security .body .items {
+  margin-top: 0.5rem;
+}
+.security .body .items .item {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.security .body .items .item :nth-child(2) {
+  color: #999999;
+}
+.security .body .items .item span {
+  color: #999999;
+}
+.security .body .items .item img {
+  width: 0.2rem;
+  height: 0.3rem;
+  margin-left: 0.25rem;
+}
+.security .body .items .line {
+  height: 1px;
+  width: 92%;
+  margin-left: 4%;
+  background: rgba(153, 153, 153, 0.23);
+}
+/*# sourceMappingURL=security.css.map */

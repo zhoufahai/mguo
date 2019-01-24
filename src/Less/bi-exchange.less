@@ -1,0 +1,384 @@
+.biexchange{
+  .header{
+    .left{
+      .img1{
+        width: 0.5rem;
+        height: 0.5rem;
+      }
+    }
+
+    .right{
+      .img3{
+        margin-left: 0.3rem;
+      }
+    }
+  }
+
+  .biexchange-body{
+    margin-top: 2rem;
+
+    .body-item1{
+      display: flex;
+      background: #ffffff;
+      padding: 0.25rem;
+
+      .body-item1-left{
+        width: 55%;
+        padding-right: 0.2rem;
+
+        /*买入卖出按钮*/
+        .btns{
+          display: flex;
+          justify-content: space-between;
+
+          .buybtn{
+            width: 48%;
+
+            .isbuybtn-selected{
+              color: #ffffff;
+              background: #23ceb7;
+              border-radius: 5px;
+              border: 0;
+              width: 100%;
+              height: 1rem;
+              outline: none;
+            }
+
+            .isbuybtn{
+              color: #000000;
+              background: #ffffff;
+              border-radius: 5px;
+              border: 1px solid #999999;
+              width: 100%;
+              height: 1rem;
+              outline: none;
+            }
+          }
+
+          .sellbtn{
+            width: 48%;
+
+            .issellbtn{
+              color: #000000;
+              background: #ffffff;
+              border-radius: 5px;
+              border: 1px solid #999999;
+              width: 100%;
+              height: 1rem;
+              outline: none;
+            }
+
+            .issellbtn-selected{
+              color: #ffffff;
+              background: #ff6023;
+              border-radius: 5px;
+              border: 0;
+              width: 100%;
+              height: 1rem;
+              outline: none;
+            }
+          }
+        }
+
+        /*选择市价限价*/
+        .select{
+          margin-top: 0.3rem;
+          display: flex;
+          align-items: center;
+
+          img{
+            width: 0.2rem;
+            height: 0.2rem;
+            margin-left: 0.2rem;
+          }
+
+
+        }
+
+        .back-active{
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0,0,0,0.3);
+        }
+
+
+        .deepnum-items{
+          padding: 0.3rem 0;
+          border-bottom: 1px solid #dddddd;
+          background-color: #ffffff;
+          margin: 0 0.1rem;
+
+          .deepnum{
+            text-align: center;
+            font-size: 0.4rem;
+          }
+        }
+
+        /**/
+        .nums{
+          margin-top: 0.3rem;
+
+          .nums-num{
+            display: flex;
+            align-items: center;
+            border: 1px solid #dddddd;
+            justify-content: space-between;
+            font-size: 0.4rem;
+
+            .nums-num-left{
+              padding: 0.3rem;
+              width: 60%;
+              border: 0;
+              outline: none;
+
+            }
+
+            .shu{
+              width: 1px;
+              height: 1.1rem;
+              background: #dddddd;
+            }
+
+            .nums-num-right{
+              display: flex;
+              align-items: center;
+              padding: 0.3rem 0.3rem 0.3rem 0;
+
+              img{
+                width: 0.5rem;
+                margin-left: 0.3rem;
+              }
+            }
+
+          }
+
+          .nums-num-shi{
+            padding: 0.3rem 0;
+            border: 1px solid #dddddd;
+            width: 100%;
+            font-size: 0.4rem;
+          }
+
+
+          .nums-text{
+            margin-top: 0.3rem;
+            color: #999999;
+          }
+        }
+
+        /*圈*/
+        .quan{
+          .quan-item1{
+            margin-top: 0.3rem;
+
+            .quan-item1-v1{
+              display: flex;
+              align-items: center;
+
+              .greenxian{
+                height: 0.1rem;
+                width: 0.6rem;
+                background: #23ceb7;
+                margin-bottom: 0.05rem;
+              }
+              .orxian{
+                height: 0.1rem;
+                width: 0.6rem;
+                background: #ff6023;
+                margin-bottom: 0.05rem;
+              }
+              .xian2{
+                height: 0.1rem;
+                width: 0.6rem;
+                background: #cdd6e3;
+                margin-bottom: 0.05rem;
+              }
+
+              img{
+                width: 0.5rem;
+              }
+            }
+
+          }
+
+          .quan-item2{
+            margin-top: 0.1rem;
+            display: flex;
+            justify-content: space-between;
+          }
+
+        }
+
+        /*交易额*/
+        .trade{
+          margin-top: 0.3rem;
+          font-size: 0.4rem;
+
+          :first-child{
+            color: #999999;
+          }
+
+          :last-child{
+            margin-left: 0.3rem;
+          }
+        }
+
+        /*买入*/
+        .buy{
+          margin-top: 0.3rem;
+
+          .isbuy{
+            color: #ffffff;
+            background: #23ceb7;
+            border:0;
+            width: 100%;
+            height: 1rem;
+            outline: none;
+          }
+
+          .issell{
+            color: #ffffff;
+            background: #ff6023;
+            border:0;
+            width: 100%;
+            height: 1rem;
+            outline: none;
+          }
+        }
+
+
+
+      }
+
+      .body-item1-right{
+        width: 45%;
+        margin-left: 0.3rem;
+
+        .titles{
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .data1{
+
+          .data1-items{
+            padding-top: 0.31rem;
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+
+        .text1{
+          margin-top: 0.3rem;
+          font-size: 0.5rem;
+          color: #23ceb7;
+        }
+
+        .text2{
+          color: #999999;
+          margin-top: 0.1rem;
+        }
+
+        .deep{
+          margin-top: 0.3rem;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+
+          .deep-item1{
+            color: #999999;
+          }
+
+          .deep-item2{
+            margin-left: 0.2rem;
+            display: flex;
+            align-items: center;
+
+            img{
+              width: 0.2rem;
+              height: 0.2rem;
+            }
+
+            .select{
+              color: #999999;
+              padding: 0.1rem 0.3rem;
+            }
+
+          }
+
+          .back-active{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.3);
+          }
+
+
+          .deepnum-items{
+            padding: 0.3rem 0;
+            border-bottom: 1px solid #dddddd;
+            background-color: #ffffff;
+            margin: 0 0.1rem;
+
+            .deepnum{
+              text-align: center;
+              font-size: 0.4rem;
+            }
+          }
+        }
+
+
+
+      }
+
+    }
+
+    .body-item2{
+      margin-top: 0.4rem;
+      background: #ffffff;
+      padding: 0.25rem;
+      margin-bottom: 2rem;
+
+      .entrust{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .entrust-text{
+          font-size: 0.45rem;
+        }
+
+        .entrust-all{
+          font-size: 0.4rem;
+          display: flex;
+          align-items: center;
+          color: #999999;
+
+          img{
+            width: 0.5rem;
+            margin-right: 0.3rem;
+          }
+        }
+      }
+
+      .back-active{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.3);
+      }
+
+
+
+    }
+
+
+  }
+}

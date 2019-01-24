@@ -1,0 +1,296 @@
+.biexchange .header .left .img1 {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.biexchange .header .right .img3 {
+  margin-left: 0.3rem;
+}
+.biexchange .biexchange-body {
+  margin-top: 2rem;
+}
+.biexchange .biexchange-body .body-item1 {
+  display: flex;
+  background: #ffffff;
+  padding: 0.25rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left {
+  width: 55%;
+  padding-right: 0.2rem;
+  /*买入卖出按钮*/
+  /*选择市价限价*/
+  /**/
+  /*圈*/
+  /*交易额*/
+  /*买入*/
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .btns {
+  display: flex;
+  justify-content: space-between;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .btns .buybtn {
+  width: 48%;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .btns .buybtn .isbuybtn-selected {
+  color: #ffffff;
+  background: #23ceb7;
+  border-radius: 5px;
+  border: 0;
+  width: 100%;
+  height: 1rem;
+  outline: none;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .btns .buybtn .isbuybtn {
+  color: #000000;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  width: 100%;
+  height: 1rem;
+  outline: none;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .btns .sellbtn {
+  width: 48%;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .btns .sellbtn .issellbtn {
+  color: #000000;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  width: 100%;
+  height: 1rem;
+  outline: none;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .btns .sellbtn .issellbtn-selected {
+  color: #ffffff;
+  background: #ff6023;
+  border-radius: 5px;
+  border: 0;
+  width: 100%;
+  height: 1rem;
+  outline: none;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .select {
+  margin-top: 0.3rem;
+  display: flex;
+  align-items: center;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .select img {
+  width: 0.2rem;
+  height: 0.2rem;
+  margin-left: 0.2rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .back-active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .deepnum-items {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #dddddd;
+  background-color: #ffffff;
+  margin: 0 0.1rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .deepnum-items .deepnum {
+  text-align: center;
+  font-size: 0.4rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .nums {
+  margin-top: 0.3rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .nums .nums-num {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dddddd;
+  justify-content: space-between;
+  font-size: 0.4rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .nums .nums-num .nums-num-left {
+  padding: 0.3rem;
+  width: 60%;
+  border: 0;
+  outline: none;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .nums .nums-num .shu {
+  width: 1px;
+  height: 1.1rem;
+  background: #dddddd;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .nums .nums-num .nums-num-right {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 0.3rem 0.3rem 0;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .nums .nums-num .nums-num-right img {
+  width: 0.5rem;
+  margin-left: 0.3rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .nums .nums-num-shi {
+  padding: 0.3rem 0;
+  border: 1px solid #dddddd;
+  width: 100%;
+  font-size: 0.4rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .nums .nums-text {
+  margin-top: 0.3rem;
+  color: #999999;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .quan .quan-item1 {
+  margin-top: 0.3rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .quan .quan-item1 .quan-item1-v1 {
+  display: flex;
+  align-items: center;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .quan .quan-item1 .quan-item1-v1 .greenxian {
+  height: 0.1rem;
+  width: 0.6rem;
+  background: #23ceb7;
+  margin-bottom: 0.05rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .quan .quan-item1 .quan-item1-v1 .orxian {
+  height: 0.1rem;
+  width: 0.6rem;
+  background: #ff6023;
+  margin-bottom: 0.05rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .quan .quan-item1 .quan-item1-v1 .xian2 {
+  height: 0.1rem;
+  width: 0.6rem;
+  background: #cdd6e3;
+  margin-bottom: 0.05rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .quan .quan-item1 .quan-item1-v1 img {
+  width: 0.5rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .quan .quan-item2 {
+  margin-top: 0.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .trade {
+  margin-top: 0.3rem;
+  font-size: 0.4rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .trade :first-child {
+  color: #999999;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .trade :last-child {
+  margin-left: 0.3rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .buy {
+  margin-top: 0.3rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .buy .isbuy {
+  color: #ffffff;
+  background: #23ceb7;
+  border: 0;
+  width: 100%;
+  height: 1rem;
+  outline: none;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-left .buy .issell {
+  color: #ffffff;
+  background: #ff6023;
+  border: 0;
+  width: 100%;
+  height: 1rem;
+  outline: none;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-right {
+  width: 45%;
+  margin-left: 0.3rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-right .titles {
+  display: flex;
+  justify-content: space-between;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-right .data1 .data1-items {
+  padding-top: 0.31rem;
+  display: flex;
+  justify-content: space-between;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-right .text1 {
+  margin-top: 0.3rem;
+  font-size: 0.5rem;
+  color: #23ceb7;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-right .text2 {
+  color: #999999;
+  margin-top: 0.1rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-right .deep {
+  margin-top: 0.3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-right .deep .deep-item1 {
+  color: #999999;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-right .deep .deep-item2 {
+  margin-left: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-right .deep .deep-item2 img {
+  width: 0.2rem;
+  height: 0.2rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-right .deep .deep-item2 .select {
+  color: #999999;
+  padding: 0.1rem 0.3rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-right .deep .back-active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.biexchange .biexchange-body .body-item1 .body-item1-right .deep .deepnum-items {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #dddddd;
+  background-color: #ffffff;
+  margin: 0 0.1rem;
+}
+.biexchange .biexchange-body .body-item1 .body-item1-right .deep .deepnum-items .deepnum {
+  text-align: center;
+  font-size: 0.4rem;
+}
+.biexchange .biexchange-body .body-item2 {
+  margin-top: 0.4rem;
+  background: #ffffff;
+  padding: 0.25rem;
+  margin-bottom: 2rem;
+}
+.biexchange .biexchange-body .body-item2 .entrust {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.biexchange .biexchange-body .body-item2 .entrust .entrust-text {
+  font-size: 0.45rem;
+}
+.biexchange .biexchange-body .body-item2 .entrust .entrust-all {
+  font-size: 0.4rem;
+  display: flex;
+  align-items: center;
+  color: #999999;
+}
+.biexchange .biexchange-body .body-item2 .entrust .entrust-all img {
+  width: 0.5rem;
+  margin-right: 0.3rem;
+}
+.biexchange .biexchange-body .body-item2 .back-active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+/*# sourceMappingURL=bi-exchange.css.map */

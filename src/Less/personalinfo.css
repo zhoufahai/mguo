@@ -1,0 +1,33 @@
+.personal-info .body {
+  margin-top: 2rem;
+  font-size: 0.4rem;
+}
+.personal-info .body .item {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.personal-info .body .item img {
+  width: 0.25rem;
+  height: 0.4rem;
+  margin-left: 0.25rem;
+}
+.personal-info .foot {
+  margin-top: 0.5rem;
+  font-size: 0.4rem;
+  margin-bottom: 2rem;
+}
+.personal-info .foot .item {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.personal-info .line {
+  height: 1px;
+  width: 92%;
+  margin-left: 4%;
+  background: rgba(153, 153, 153, 0.23);
+}
+/*# sourceMappingURL=personalinfo.css.map */

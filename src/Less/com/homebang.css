@@ -1,0 +1,51 @@
+.list {
+  margin-top: 0.5rem;
+  background-color: #ffffff;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+.list .list-header {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.25rem 0;
+  color: #999999;
+  font-size: 0.4rem;
+}
+.list .list-header .active {
+  color: #000000;
+}
+.list .line {
+  height: 1px;
+  background-color: #999999;
+}
+.list .list-body {
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.list .list-body .list-body-item1 {
+  display: flex;
+  flex-direction: column;
+}
+.list .list-body .list-body-item1 .list-body-item1-1 {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  font-size: 0.25rem;
+  text-align: center;
+  color: #999999;
+}
+.list .list-body .list-body-item2 {
+  background-color: #109978;
+  border-radius: 3px;
+  padding: 0.15rem 0.25rem;
+  color: #ffffff;
+}
+.list .list-body .list-body-item3 {
+  background-color: #ff808d;
+  border-radius: 3px;
+  padding: 0.15rem 0.25rem;
+  color: #ffffff;
+}
+/*# sourceMappingURL=homebang.css.map */

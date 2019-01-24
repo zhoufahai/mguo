@@ -1,0 +1,53 @@
+.bsdetail .bsdetail-body {
+  margin-top: 2rem;
+}
+.bsdetail .bsdetail-body .bsdetail-body-one {
+  padding: 0.5rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+}
+.bsdetail .bsdetail-body .bsdetail-body-one :first-child {
+  font-size: 0.4rem;
+  color: #23ceb7;
+}
+.bsdetail .bsdetail-body .bsdetail-body-one :last-child {
+  font-size: 0.4rem;
+  margin-left: 0.3rem;
+}
+.bsdetail .bsdetail-body .bsdetail-body-two {
+  padding: 0.5rem;
+  background-color: #ffffff;
+  margin-bottom: 0.2rem;
+}
+.bsdetail .bsdetail-body .bsdetail-body-two .body-two-items {
+  display: flex;
+  justify-content: space-between;
+}
+.bsdetail .bsdetail-body .bsdetail-body-two .body-two-items .two-item {
+  margin-bottom: 0.2rem;
+}
+.bsdetail .bsdetail-body .bsdetail-body-two .body-two-items .two-item :first-child {
+  color: #999999;
+  margin-bottom: 0.2rem;
+}
+.bsdetail .bsdetail-body .bsdetail-body-two .body-two-items .two-item :last-child {
+  color: #0c34a3;
+}
+.bsdetail .bsdetail-body .bsdetail-body-three {
+  padding: 0 0.5rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+}
+.bsdetail .bsdetail-body .bsdetail-body-three .body-three-items {
+  padding: 0.3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.bsdetail .bsdetail-body .bsdetail-body-three .body-three-items :first-child {
+  font-size: 0.4rem;
+  color: #0c34a3;
+}
+.bsdetail .bsdetail-body .bsdetail-body-three .body-three-items :last-child {
+  font-size: 0.4rem;
+}
+/*# sourceMappingURL=bs-detail.css.map */

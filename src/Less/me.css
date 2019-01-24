@@ -1,0 +1,109 @@
+.me .me-header {
+  background: url("../assets/img/bg-my@2x.png");
+  padding: 0.5rem;
+}
+.me .me-header .me-header-item1 {
+  display: flex;
+  align-items: baseline;
+  text-align: right;
+}
+.me .me-header .me-header-item1 :first-child {
+  width: 20%;
+}
+.me .me-header .me-header-item1 :nth-child(2) {
+  width: 60%;
+  text-align: center;
+  font-size: 0.4rem;
+}
+.me .me-header .me-header-item1 :last-child {
+  width: 20%;
+}
+.me .me-header .me-header-item2 {
+  display: flex;
+  align-items: center;
+}
+.me .me-header .me-header-item2 :first-child {
+  margin-right: 0.25rem;
+}
+.me .me-header .me-header-item2 img {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.me .me-header .me-header-item3 {
+  font-size: 0.4rem;
+}
+.me .me-header .me-header-item3 :first-child {
+  margin-left: 1.35rem;
+}
+.me .me-body {
+  margin-top: 0.5rem;
+  background: #ffffff;
+  font-size: 0.4rem;
+}
+.me .me-body .me-body-item {
+  display: flex;
+  flex-direction: column;
+}
+.me .me-body .me-body-item .msg {
+  display: flex;
+  padding: 0.4rem 0.5rem;
+  align-items: center;
+}
+.me .me-body .me-body-item .msg img {
+  width: 0.65rem;
+  height: 0.65rem;
+}
+.me .me-body .me-body-item .msg :first-child {
+  margin-right: 0.25rem;
+  display: flex;
+}
+.me .me-body .me-body-item .msg :nth-child(2) {
+  width: 80%;
+}
+.me .me-body .me-body-item .msg :last-child img {
+  width: 0.25rem;
+  height: 0.35rem;
+}
+.me .me-body .me-body-item .line {
+  height: 1px;
+  width: 92%;
+  margin-left: 4%;
+  background: rgba(153, 153, 153, 0.23);
+}
+.me .me-footer {
+  margin-top: 0.5rem;
+  background: #ffffff;
+  font-size: 0.4rem;
+  margin-bottom: 2rem;
+}
+.me .me-footer .me-footer-item {
+  display: flex;
+  flex-direction: column;
+}
+.me .me-footer .me-footer-item .msg {
+  display: flex;
+  padding: 0.4rem 0.5rem;
+  align-items: center;
+}
+.me .me-footer .me-footer-item .msg img {
+  width: 0.65rem;
+  height: 0.65rem;
+}
+.me .me-footer .me-footer-item .msg :first-child {
+  margin-right: 0.25rem;
+  display: flex;
+}
+.me .me-footer .me-footer-item .msg :nth-child(2) {
+  width: 80%;
+}
+.me .me-footer .me-footer-item .msg :last-child img {
+  width: 0.25rem;
+  height: 0.35rem;
+}
+.me .me-footer .me-footer-item .line {
+  height: 1px;
+  width: 92%;
+  margin-left: 4%;
+  background: rgba(153, 153, 153, 0.23);
+}
+/*# sourceMappingURL=me.css.map */

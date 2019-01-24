@@ -1,0 +1,49 @@
+.home .swoing > img {
+  width: 100%;
+}
+.home .msg {
+  padding: 0.25rem 0.5rem;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.home .msg > img {
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 0.25rem;
+}
+.home .assets {
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #ffffff;
+}
+.home .assets .item1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.1rem 0;
+  align-items: center;
+  font-size: 0.4rem;
+}
+.home .assets .item1 > img {
+  width: 1rem;
+  height: 1rem;
+}
+.home .assets .item2 {
+  text-align: center;
+  font-size: 0.4rem;
+}
+.home .assets .item3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0;
+}
+.home .assets .item3 .item3-v {
+  padding: 0.2rem;
+  line-height: 0.25rem;
+  width: 43%;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px #999999;
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,35 @@
+.first-certification .first-body {
+  margin-top: 2rem;
+  padding: 0 0.5rem;
+}
+.first-certification .first-body .chechbox {
+  display: flex;
+}
+.first-certification .first-body .first-items {
+  font-size: 0.4rem;
+  display: flex;
+  padding-top: 0.3rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #dddddd;
+}
+.first-certification .first-body .first-items :first-child {
+  width: 30%;
+}
+.first-certification .first-body .first-items .input > input {
+  margin-left: 0.5rem;
+  border: 0;
+  outline: none;
+  background-color: #F0F2F5;
+  width: 100%;
+}
+.first-certification .first-body .first-items .select {
+  width: 65%;
+}
+.first-certification .first-body .first-items .select > select {
+  margin-left: 0.5rem;
+  border: 0;
+  outline: none;
+  background-color: #F0F2F5;
+  width: 100%;
+}
+/*# sourceMappingURL=first.css.map */

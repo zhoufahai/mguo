@@ -1,0 +1,29 @@
+.second-certification .second-body {
+  margin-top: 2rem;
+  padding: 0 0.5rem;
+}
+.second-certification .second-body .checkbox {
+  display: flex;
+}
+.second-certification .second-body .img {
+  position: relative;
+}
+.second-certification .second-body .img .img1 {
+  width: 100%;
+}
+.second-certification .second-body .img .img2 {
+  width: 20%;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+.second-certification .second-body .img .text {
+  position: absolute;
+  top: 78%;
+  left: 32%;
+  color: #999999;
+}
+.second-certification .second-body .attention {
+  color: #999999;
+}
+/*# sourceMappingURL=second.css.map */

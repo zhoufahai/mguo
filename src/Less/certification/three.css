@@ -1,0 +1,47 @@
+.three-certification .three-body {
+  margin-top: 2rem;
+  padding: 0 0.5rem;
+}
+.three-certification .three-body .checkbox {
+  display: flex;
+}
+.three-certification .three-body .items {
+  display: flex;
+  padding-top: 0.3rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #dddddd;
+}
+.three-certification .three-body .items .select {
+  width: 65%;
+}
+.three-certification .three-body .items .select > select {
+  margin-left: 0.5rem;
+  border: 0;
+  outline: none;
+  background-color: #F0F2F5;
+  width: 100%;
+}
+.three-certification .three-body .three-phone .phones {
+  display: flex;
+}
+.three-certification .three-body .three-phone .phones .img {
+  position: relative;
+}
+.three-certification .three-body .three-phone .phones .img .img1 {
+  width: 100%;
+}
+.three-certification .three-body .three-phone .phones .img .img2 {
+  width: 30%;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+.three-certification .three-body .three-phone .phones .img .text {
+  position: absolute;
+  left: 32%;
+  top: 68%;
+}
+.three-certification .three-body .attention {
+  color: #999999;
+}
+/*# sourceMappingURL=three.css.map */
